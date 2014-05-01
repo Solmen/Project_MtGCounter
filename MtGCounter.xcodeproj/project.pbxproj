@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262486891911937B001FFC53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262486881911937B001FFC53 /* Foundation.framework */; };
+		2624868B1911937B001FFC53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624868A1911937B001FFC53 /* CoreGraphics.framework */; };
+		2624868D1911937B001FFC53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624868C1911937B001FFC53 /* UIKit.framework */; };
+		262486931911937B001FFC53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 262486911911937B001FFC53 /* InfoPlist.strings */; };
+		262486951911937B001FFC53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 262486941911937B001FFC53 /* main.m */; };
+		262486991911937B001FFC53 /* MtGCounterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 262486981911937B001FFC53 /* MtGCounterAppDelegate.m */; };
+		2624869C1911937B001FFC53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2624869A1911937B001FFC53 /* Main.storyboard */; };
+		2624869F1911937B001FFC53 /* MtGCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2624869E1911937B001FFC53 /* MtGCounterViewController.m */; };
+		262486A11911937B001FFC53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262486A01911937B001FFC53 /* Images.xcassets */; };
+		262486A81911937B001FFC53 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262486A71911937B001FFC53 /* XCTest.framework */; };
+		262486A91911937B001FFC53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262486881911937B001FFC53 /* Foundation.framework */; };
+		262486AA1911937B001FFC53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624868C1911937B001FFC53 /* UIKit.framework */; };
+		262486B21911937B001FFC53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 262486B01911937B001FFC53 /* InfoPlist.strings */; };
+		262486B41911937B001FFC53 /* MtGCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 262486B31911937B001FFC53 /* MtGCounterTests.m */; };
+		262486BF191193C1001FFC53 /* MtGCounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262486BD191193C1001FFC53 /* MtGCounterViewController.xib */; };
+		262486C0191193C1001FFC53 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262486BE191193C1001FFC53 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		262486AB1911937B001FFC53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2624867D1911937B001FFC53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 262486841911937B001FFC53;
+			remoteInfo = MtGCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		262486851911937B001FFC53 /* MtGCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MtGCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262486881911937B001FFC53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2624868A1911937B001FFC53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2624868C1911937B001FFC53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		262486901911937B001FFC53 /* MtGCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MtGCounter-Info.plist"; sourceTree = "<group>"; };
+		262486921911937B001FFC53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		262486941911937B001FFC53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		262486961911937B001FFC53 /* MtGCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MtGCounter-Prefix.pch"; sourceTree = "<group>"; };
+		262486971911937B001FFC53 /* MtGCounterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MtGCounterAppDelegate.h; sourceTree = "<group>"; };
+		262486981911937B001FFC53 /* MtGCounterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtGCounterAppDelegate.m; sourceTree = "<group>"; };
+		2624869B1911937B001FFC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2624869D1911937B001FFC53 /* MtGCounterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MtGCounterViewController.h; sourceTree = "<group>"; };
+		2624869E1911937B001FFC53 /* MtGCounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtGCounterViewController.m; sourceTree = "<group>"; };
+		262486A01911937B001FFC53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		262486A61911937B001FFC53 /* MtGCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtGCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		262486A71911937B001FFC53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		262486AF1911937B001FFC53 /* MtGCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MtGCounterTests-Info.plist"; sourceTree = "<group>"; };
+		262486B11911937B001FFC53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		262486B31911937B001FFC53 /* MtGCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtGCounterTests.m; sourceTree = "<group>"; };
+		262486BD191193C1001FFC53 /* MtGCounterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MtGCounterViewController.xib; sourceTree = "<group>"; };
+		262486BE191193C1001FFC53 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262486821911937B001FFC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2624868B1911937B001FFC53 /* CoreGraphics.framework in Frameworks */,
+				2624868D1911937B001FFC53 /* UIKit.framework in Frameworks */,
+				262486891911937B001FFC53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262486A31911937B001FFC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262486A81911937B001FFC53 /* XCTest.framework in Frameworks */,
+				262486AA1911937B001FFC53 /* UIKit.framework in Frameworks */,
+				262486A91911937B001FFC53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2624867C1911937B001FFC53 = {
+			isa = PBXGroup;
+			children = (
+				2624868E1911937B001FFC53 /* MtGCounter */,
+				262486AD1911937B001FFC53 /* MtGCounterTests */,
+				262486871911937B001FFC53 /* Frameworks */,
+				262486861911937B001FFC53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		262486861911937B001FFC53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				262486851911937B001FFC53 /* MtGCounter.app */,
+				262486A61911937B001FFC53 /* MtGCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262486871911937B001FFC53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				262486881911937B001FFC53 /* Foundation.framework */,
+				2624868A1911937B001FFC53 /* CoreGraphics.framework */,
+				2624868C1911937B001FFC53 /* UIKit.framework */,
+				262486A71911937B001FFC53 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2624868E1911937B001FFC53 /* MtGCounter */ = {
+			isa = PBXGroup;
+			children = (
+				262486971911937B001FFC53 /* MtGCounterAppDelegate.h */,
+				262486981911937B001FFC53 /* MtGCounterAppDelegate.m */,
+				2624869A1911937B001FFC53 /* Main.storyboard */,
+				2624869D1911937B001FFC53 /* MtGCounterViewController.h */,
+				2624869E1911937B001FFC53 /* MtGCounterViewController.m */,
+				262486BD191193C1001FFC53 /* MtGCounterViewController.xib */,
+				262486BE191193C1001FFC53 /* MainWindow.xib */,
+				262486A01911937B001FFC53 /* Images.xcassets */,
+				2624868F1911937B001FFC53 /* Supporting Files */,
+			);
+			path = MtGCounter;
+			sourceTree = "<group>";
+		};
+		2624868F1911937B001FFC53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				262486901911937B001FFC53 /* MtGCounter-Info.plist */,
+				262486911911937B001FFC53 /* InfoPlist.strings */,
+				262486941911937B001FFC53 /* main.m */,
+				262486961911937B001FFC53 /* MtGCounter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		262486AD1911937B001FFC53 /* MtGCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				262486B31911937B001FFC53 /* MtGCounterTests.m */,
+				262486AE1911937B001FFC53 /* Supporting Files */,
+			);
+			path = MtGCounterTests;
+			sourceTree = "<group>";
+		};
+		262486AE1911937B001FFC53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				262486AF1911937B001FFC53 /* MtGCounterTests-Info.plist */,
+				262486B01911937B001FFC53 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		262486841911937B001FFC53 /* MtGCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262486B71911937B001FFC53 /* Build configuration list for PBXNativeTarget "MtGCounter" */;
+			buildPhases = (
+				262486811911937B001FFC53 /* Sources */,
+				262486821911937B001FFC53 /* Frameworks */,
+				262486831911937B001FFC53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MtGCounter;
+			productName = MtGCounter;
+			productReference = 262486851911937B001FFC53 /* MtGCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		262486A51911937B001FFC53 /* MtGCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262486BA1911937B001FFC53 /* Build configuration list for PBXNativeTarget "MtGCounterTests" */;
+			buildPhases = (
+				262486A21911937B001FFC53 /* Sources */,
+				262486A31911937B001FFC53 /* Frameworks */,
+				262486A41911937B001FFC53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262486AC1911937B001FFC53 /* PBXTargetDependency */,
+			);
+			name = MtGCounterTests;
+			productName = MtGCounterTests;
+			productReference = 262486A61911937B001FFC53 /* MtGCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2624867D1911937B001FFC53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MtGCounter;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Samuel Tolkin";
+				TargetAttributes = {
+					262486A51911937B001FFC53 = {
+						TestTargetID = 262486841911937B001FFC53;
+					};
+				};
+			};
+			buildConfigurationList = 262486801911937B001FFC53 /* Build configuration list for PBXProject "MtGCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2624867C1911937B001FFC53;
+			productRefGroup = 262486861911937B001FFC53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				262486841911937B001FFC53 /* MtGCounter */,
+				262486A51911937B001FFC53 /* MtGCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		262486831911937B001FFC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262486BF191193C1001FFC53 /* MtGCounterViewController.xib in Resources */,
+				262486C0191193C1001FFC53 /* MainWindow.xib in Resources */,
+				262486A11911937B001FFC53 /* Images.xcassets in Resources */,
+				262486931911937B001FFC53 /* InfoPlist.strings in Resources */,
+				2624869C1911937B001FFC53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262486A41911937B001FFC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262486B21911937B001FFC53 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		262486811911937B001FFC53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262486991911937B001FFC53 /* MtGCounterAppDelegate.m in Sources */,
+				2624869F1911937B001FFC53 /* MtGCounterViewController.m in Sources */,
+				262486951911937B001FFC53 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262486A21911937B001FFC53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262486B41911937B001FFC53 /* MtGCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		262486AC1911937B001FFC53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 262486841911937B001FFC53 /* MtGCounter */;
+			targetProxy = 262486AB1911937B001FFC53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		262486911911937B001FFC53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262486921911937B001FFC53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2624869A1911937B001FFC53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2624869B1911937B001FFC53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		262486B01911937B001FFC53 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				262486B11911937B001FFC53 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		262486B51911937B001FFC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		262486B61911937B001FFC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		262486B81911937B001FFC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MtGCounter/MtGCounter-Prefix.pch";
+				INFOPLIST_FILE = "MtGCounter/MtGCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		262486B91911937B001FFC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MtGCounter/MtGCounter-Prefix.pch";
+				INFOPLIST_FILE = "MtGCounter/MtGCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		262486BB1911937B001FFC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MtGCounter.app/MtGCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MtGCounter/MtGCounter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MtGCounterTests/MtGCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		262486BC1911937B001FFC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MtGCounter.app/MtGCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MtGCounter/MtGCounter-Prefix.pch";
+				INFOPLIST_FILE = "MtGCounterTests/MtGCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		262486801911937B001FFC53 /* Build configuration list for PBXProject "MtGCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262486B51911937B001FFC53 /* Debug */,
+				262486B61911937B001FFC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262486B71911937B001FFC53 /* Build configuration list for PBXNativeTarget "MtGCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262486B81911937B001FFC53 /* Debug */,
+				262486B91911937B001FFC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		262486BA1911937B001FFC53 /* Build configuration list for PBXNativeTarget "MtGCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262486BB1911937B001FFC53 /* Debug */,
+				262486BC1911937B001FFC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2624867D1911937B001FFC53 /* Project object */;
+}
